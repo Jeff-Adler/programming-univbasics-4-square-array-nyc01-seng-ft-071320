@@ -17,4 +17,5 @@ def square_array(array)
     square_array[counter] = array[counter] * array[counter]
     counter += 1
   end
+  square_array[counter]
 end
